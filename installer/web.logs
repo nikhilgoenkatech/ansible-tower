@@ -1,0 +1,304 @@
+Using /etc/ansible/ansible.cfg as config file
+127.0.0.1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "elapsed": 0,
+    "match_groupdict": {},
+    "match_groups": [],
+    "path": null,
+    "port": 5432,
+    "search_regex": null,
+    "state": "started"
+}
+Using /etc/ansible/ansible.cfg as config file
+127.0.0.1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "db": "awx"
+}
+
+166 static files copied to '/var/lib/awx/public/static'.
+2021-10-08 10:14:45,706 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-08 10:14:45,706 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-08 10:14:46,014 INFO RPC interface 'supervisor' initialized
+2021-10-08 10:14:46,014 INFO RPC interface 'supervisor' initialized
+2021-10-08 10:14:46,014 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-10-08 10:14:46,014 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-10-08 10:14:46,015 INFO supervisord started with pid 71
+2021-10-08 10:14:46,015 INFO supervisord started with pid 71
+2021-10-08 10:14:47,018 INFO spawned: 'awx-config-watcher' with pid 74
+2021-10-08 10:14:47,018 INFO spawned: 'awx-config-watcher' with pid 74
+2021-10-08 10:14:47,020 INFO spawned: 'nginx' with pid 75
+2021-10-08 10:14:47,020 INFO spawned: 'nginx' with pid 75
+2021-10-08 10:14:47,022 INFO spawned: 'uwsgi' with pid 76
+2021-10-08 10:14:47,022 INFO spawned: 'uwsgi' with pid 76
+2021-10-08 10:14:47,031 INFO spawned: 'daphne' with pid 77
+2021-10-08 10:14:47,031 INFO spawned: 'daphne' with pid 77
+2021-10-08 10:14:47,033 INFO spawned: 'wsbroadcast' with pid 78
+2021-10-08 10:14:47,033 INFO spawned: 'wsbroadcast' with pid 78
+2021-10-08 10:14:47,060 INFO spawned: 'awx-rsyslogd' with pid 79
+2021-10-08 10:14:47,060 INFO spawned: 'awx-rsyslogd' with pid 79
+2021-10-08 10:14:47,263 INFO exited: awx-rsyslogd (exit status 1; not expected)
+2021-10-08 10:14:47,263 INFO exited: awx-rsyslogd (exit status 1; not expected)
+Using /etc/ansible/ansible.cfg as config file
+127.0.0.1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "elapsed": 0,
+    "match_groupdict": {},
+    "match_groups": [],
+    "path": null,
+    "port": 5432,
+    "search_regex": null,
+    "state": "started"
+}
+Using /etc/ansible/ansible.cfg as config file
+127.0.0.1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "db": "awx"
+}
+Deleting 'favicon.ico'
+Deleting 'rest_framework/css/default.css'
+Deleting 'rest_framework/css/bootstrap-theme.min.css'
+Deleting 'rest_framework/css/bootstrap-tweaks.css'
+Deleting 'rest_framework/css/bootstrap.min.css'
+Deleting 'rest_framework/css/font-awesome-4.0.3.css'
+Deleting 'rest_framework/css/prettify.css'
+Deleting 'rest_framework/js/csrf.js'
+Deleting 'rest_framework/js/ajax-form.js'
+Deleting 'rest_framework/js/prettify-min.js'
+Deleting 'rest_framework/js/default.js'
+Deleting 'rest_framework/js/jquery-3.5.1.min.js'
+Deleting 'rest_framework/js/bootstrap.min.js'
+Deleting 'rest_framework/js/coreapi-0.1.1.js'
+Deleting 'rest_framework/docs/css/base.css'
+Deleting 'rest_framework/docs/css/highlight.css'
+Deleting 'rest_framework/docs/css/jquery.json-view.min.css'
+Deleting 'rest_framework/docs/js/highlight.pack.js'
+Deleting 'rest_framework/docs/js/api.js'
+Deleting 'rest_framework/docs/js/jquery.json-view.min.js'
+Deleting 'rest_framework/docs/img/grid.png'
+Deleting 'rest_framework/docs/img/favicon.ico'
+Deleting 'rest_framework/fonts/fontawesome-webfont.ttf'
+Deleting 'rest_framework/fonts/fontawesome-webfont.svg'
+Deleting 'rest_framework/fonts/glyphicons-halflings-regular.woff2'
+Deleting 'rest_framework/fonts/fontawesome-webfont.eot'
+Deleting 'rest_framework/fonts/glyphicons-halflings-regular.svg'
+Deleting 'rest_framework/fonts/glyphicons-halflings-regular.eot'
+Deleting 'rest_framework/fonts/glyphicons-halflings-regular.woff'
+Deleting 'rest_framework/fonts/fontawesome-webfont.woff'
+Deleting 'rest_framework/fonts/glyphicons-halflings-regular.ttf'
+Deleting 'rest_framework/img/grid.png'
+Deleting 'rest_framework/img/glyphicons-halflings-white.png'
+Deleting 'rest_framework/img/glyphicons-halflings.png'
+Deleting 'css/2.36e6711a.chunk.css'
+Deleting 'css/2.36e6711a.chunk.css.map'
+Deleting 'js/2.e931213d.chunk.js.map'
+Deleting 'js/main.2e0227e2.chunk.js.map'
+Deleting 'js/2.e931213d.chunk.js'
+Deleting 'js/2.e931213d.chunk.js.LICENSE.txt'
+Deleting 'js/runtime-main.a1234c1a.js.map'
+Deleting 'js/main.2e0227e2.chunk.js'
+Deleting 'js/runtime-main.a1234c1a.js'
+Deleting 'django_extensions/css/jquery.autocomplete.css'
+Deleting 'django_extensions/js/jquery.autocomplete.js'
+Deleting 'django_extensions/js/jquery.bgiframe.js'
+Deleting 'django_extensions/js/jquery.ajaxQueue.js'
+Deleting 'django_extensions/img/indicator.gif'
+Deleting 'media/RedHatDisplay-Bold.b72e57f1.eot'
+Deleting 'media/RedHatDisplay-Medium.f656301e.woff'
+Deleting 'media/overpass-extrabold-italic.83caef4a.woff'
+Deleting 'media/overpass-semibold-italic.e244fb96.woff'
+Deleting 'media/overpass-extralight.c5791995.woff2'
+Deleting 'media/overpass-bold-italic.ad84fcd4.eot'
+Deleting 'media/overpass-light.b065f905.eot'
+Deleting 'media/pfbg_2000.4f598944.jpg'
+Deleting 'media/RedHatDisplay-Bold.ef99e280.woff'
+Deleting 'media/overpass-mono-semibold.404c69d4.woff'
+Deleting 'media/overpass-thin-italic.849bc426.woff'
+Deleting 'media/overpass-mono-light.d34d136b.woff2'
+Deleting 'media/overpass-heavy.196bf61d.ttf'
+Deleting 'media/overpass-italic.5f705c0e.ttf'
+Deleting 'media/RedHatDisplay-Regular.3c2eb037.woff'
+Deleting 'media/overpass-thin.964a9d1d.eot'
+Deleting 'media/overpass-extralight-italic.85914371.woff2'
+Deleting 'media/overpass-semibold.5ee7acc2.eot'
+Deleting 'media/overpass-heavy-italic.fc408a5c.ttf'
+Deleting 'media/overpass-light-italic.6715ec5e.woff2'
+Deleting 'media/overpass-extralight-italic.b4ac9dd8.woff'
+Deleting 'media/overpass-mono-light.3be32ac5.ttf'
+Deleting 'media/overpass-extralight-italic.5a7110dd.eot'
+Deleting 'media/overpass-thin.8c022f6d.woff2'
+Deleting 'media/overpass-semibold-italic.4e4b8fd4.ttf'
+Deleting 'media/overpass-heavy-italic.77a29c6c.woff2'
+Deleting 'media/overpass-italic.6a8cb294.eot'
+Deleting 'media/overpass-mono-bold.75f6145e.woff'
+Deleting 'media/overpass-thin.94f49172.woff'
+Deleting 'media/pfbg_768@2x.jpg'
+Deleting 'media/overpass-thin-italic.16380cc4.woff2'
+Deleting 'media/overpass-light-italic.df98f835.ttf'
+Deleting 'media/overpass-light-italic.14564a08.eot'
+Deleting 'media/logo-header.svg'
+Deleting 'media/overpass-semibold.ca834120.woff2'
+Deleting 'media/overpass-extralight.7a42efd1.ttf'
+Deleting 'media/overpass-mono-semibold.b199b8f9.woff2'
+Deleting 'media/overpass-semibold.aabbde80.ttf'
+Deleting 'media/overpass-regular.7b93997b.woff'
+Deleting 'media/overpass-extrabold.6e768ba3.woff2'
+Deleting 'media/overpass-heavy-italic.9a846a97.woff'
+Deleting 'media/overpass-light-italic.5b90b726.woff'
+Deleting 'media/overpass-mono-bold.433b5c73.eot'
+Deleting 'media/pfbg_768.jpg'
+Deleting 'media/overpass-bold.c6179bc8.woff'
+Deleting 'media/overpass-semibold.ec228a39.woff'
+Deleting 'media/overpass-extrabold.b184d3d7.eot'
+Deleting 'media/overpass-extralight-italic.07d68df8.ttf'
+Deleting 'media/overpass-mono-regular.88c46de6.ttf'
+Deleting 'media/RedHatText-Medium.ed5d521b.woff'
+Deleting 'media/logo-login.svg'
+Deleting 'media/pfbg_2000.jpg'
+Deleting 'media/overpass-mono-semibold.b430c0bc.eot'
+Deleting 'media/RedHatText-Regular.4202115c.woff'
+Deleting 'media/overpass-extrabold.1168ce1e.woff'
+Deleting 'media/pficon.d5a7c121.eot'
+Deleting 'media/pficon.ecd431f0.woff2'
+Deleting 'media/overpass-italic.0010a44b.woff'
+Deleting 'media/awx-logo.pdf'
+Deleting 'media/overpass-bold-italic.a3014aca.woff2'
+Deleting 'media/pfbg_576.85341a9c.jpg'
+Deleting 'media/pfbg_992@2x.1423e11e.jpg'
+Deleting 'media/pficon.f69d23d9.woff'
+Deleting 'media/overpass-extralight.453031be.eot'
+Deleting 'media/favicon.ico'
+Deleting 'media/pficon.2c4dad0b.svg'
+Deleting 'media/overpass-bold-italic.a7525e62.ttf'
+Deleting 'media/overpass-bold.1be69fa3.eot'
+Deleting 'media/overpass-semibold-italic.d91e16a1.woff2'
+Deleting 'media/overpass-extrabold-italic.0e4f5b12.eot'
+Deleting 'media/overpass-heavy-italic.e171c10c.eot'
+Deleting 'media/overpass-bold-italic.c0b5bb3c.woff'
+Deleting 'media/overpass-mono-regular.96c8503e.eot'
+Deleting 'media/overpass-extrabold.5174bc0e.ttf'
+Deleting 'media/overpass-mono-regular.cf00f67f.woff'
+Deleting 'media/overpass-light.f3914c0c.ttf'
+Deleting 'media/overpass-mono-light.773ec666.woff'
+Deleting 'media/overpass-bold.d031db25.woff2'
+Deleting 'media/variables.less'
+Deleting 'media/overpass-thin-italic.a452cd38.eot'
+Deleting 'media/overpass-light.3875601d.woff'
+Deleting 'media/pfbg_768@2x.0099dea3.jpg'
+Deleting 'media/overpass-heavy.7fe4082d.eot'
+Deleting 'media/RedHatText-Regular.74d94f03.eot'
+Deleting 'media/overpass-thin-italic.2ad7b693.ttf'
+Deleting 'media/RedHatText-Medium.1859370a.eot'
+Deleting 'media/overpass-heavy.42aa590b.woff'
+Deleting 'media/pfbg_576.jpg'
+Deleting 'media/brand-logo.6549f233.svg'
+Deleting 'media/pficon.55a82a2f.ttf'
+Deleting 'media/overpass-mono-semibold.3eade9d0.ttf'
+Deleting 'media/overpass-mono-bold.6cb4a77b.woff2'
+Deleting 'media/pfbg_768.c9839717.jpg'
+Deleting 'media/overpass-mono-light.326c58fb.eot'
+Deleting 'media/RedHatDisplay-Medium.ef5f146c.eot'
+Deleting 'media/overpass-heavy.33b983b6.woff2'
+Deleting 'media/overpass-extrabold-italic.1120bb04.ttf'
+Deleting 'media/overpass-regular.02d9e0ef.woff2'
+Deleting 'media/favicon.svg'
+Deleting 'media/overpass-light.c97e1959.woff2'
+Deleting 'media/overpass-thin.69bb205a.ttf'
+Deleting 'media/pfbg_576@2x.b48e77bc.jpg'
+Deleting 'media/overpass-semibold-italic.73eb8e6d.eot'
+Deleting 'media/overpass-italic.f45ba39e.woff2'
+Deleting 'media/overpass-bold.03f13d81.ttf'
+Deleting 'media/overpass-extralight.86fd9ea3.woff'
+Deleting 'media/overpass-regular.7053cc87.eot'
+Deleting 'media/default.strings.json'
+Deleting 'media/overpass-mono-bold.525102cd.ttf'
+Deleting 'media/overpass-regular.f3dbad81.ttf'
+Deleting 'media/overpass-mono-regular.052fe015.woff2'
+Deleting 'media/pfbg_576@2x.jpg'
+Deleting 'media/RedHatDisplay-Regular.93ba369e.eot'
+Deleting 'media/overpass-extrabold-italic.cd4ba352.woff2'
+Deleting 'api/api.js'
+Deleting 'api/api.css'
+Deleting 'polymorphic/css/polymorphic_inlines.css'
+Deleting 'polymorphic/js/polymorphic_inlines.js'
+
+166 static files copied to '/var/lib/awx/public/static'.
+2021-10-08 10:15:04,607 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-08 10:15:04,607 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-10-08 10:15:04,913 INFO RPC interface 'supervisor' initialized
+2021-10-08 10:15:04,913 INFO RPC interface 'supervisor' initialized
+2021-10-08 10:15:04,913 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-10-08 10:15:04,913 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-10-08 10:15:04,913 INFO supervisord started with pid 83
+2021-10-08 10:15:04,913 INFO supervisord started with pid 83
+2021-10-08 10:15:05,916 INFO spawned: 'awx-config-watcher' with pid 86
+2021-10-08 10:15:05,916 INFO spawned: 'awx-config-watcher' with pid 86
+2021-10-08 10:15:05,918 INFO spawned: 'nginx' with pid 87
+2021-10-08 10:15:05,918 INFO spawned: 'nginx' with pid 87
+2021-10-08 10:15:05,928 INFO spawned: 'uwsgi' with pid 88
+2021-10-08 10:15:05,928 INFO spawned: 'uwsgi' with pid 88
+2021-10-08 10:15:05,946 INFO spawned: 'daphne' with pid 89
+2021-10-08 10:15:05,946 INFO spawned: 'daphne' with pid 89
+2021-10-08 10:15:05,967 INFO spawned: 'wsbroadcast' with pid 90
+2021-10-08 10:15:05,967 INFO spawned: 'wsbroadcast' with pid 90
+2021-10-08 10:15:05,986 INFO spawned: 'awx-rsyslogd' with pid 91
+2021-10-08 10:15:05,986 INFO spawned: 'awx-rsyslogd' with pid 91
+2021-10-08 10:15:07,393 INFO success: awx-config-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,393 INFO success: awx-config-watcher entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,393 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,393 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,393 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,393 INFO success: uwsgi entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,394 INFO success: daphne entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,394 INFO success: daphne entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,394 INFO success: wsbroadcast entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,394 INFO success: wsbroadcast entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,394 INFO success: awx-rsyslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:07,394 INFO success: awx-rsyslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+READY
+2021-10-08 10:15:22,986 INFO waiting for awx-rsyslogd to stop
+2021-10-08 10:15:22,986 INFO waiting for awx-rsyslogd to stop
+2021-10-08 10:15:22,987 INFO stopped: awx-rsyslogd (exit status 0)
+2021-10-08 10:15:22,987 INFO stopped: awx-rsyslogd (exit status 0)
+2021-10-08 10:15:22,991 INFO spawned: 'awx-rsyslogd' with pid 148
+2021-10-08 10:15:22,991 INFO spawned: 'awx-rsyslogd' with pid 148
+2021-10-08 10:15:23,993 INFO success: awx-rsyslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-10-08 10:15:23,993 INFO success: awx-rsyslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+172.25.0.1 - - [08/Oct/2021:10:18:41 +0000] "GET / HTTP/1.1" 200 1082 "-" "curl/7.58.0" "-"
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
+RESULT 2
+OKREADY
