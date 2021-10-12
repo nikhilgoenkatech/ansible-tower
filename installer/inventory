@@ -1,4 +1,4 @@
-localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python3"
+docker_compose_dir localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python3"
 
 [all:vars]
 
@@ -69,7 +69,7 @@ host_port_ssl=443
 #ssl_certificate=
 # Optional key file
 #ssl_certificate_key=
-docker_compose_dir="~/.awx/awxcompose"
+docker_compose_dir="/home/ubuntu/.awx/awxcompose"
 
 # Required for Openshift when building the image on your own
 # Optional for Openshift if using Dockerhub or another prebuilt registry
