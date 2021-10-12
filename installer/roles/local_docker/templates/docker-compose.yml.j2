@@ -20,7 +20,7 @@ services:
       {% endif %}
     {% endif %}
     hostname: {{ awx_web_hostname }}
-    user: ubuntu
+    user: root
     restart: unless-stopped
     {% if (awx_web_container_labels is defined) and (',' in awx_web_container_labels) %}
     {% set awx_web_container_labels_list = awx_web_container_labels.split(',') %}
