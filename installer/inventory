@@ -64,7 +64,7 @@ awx_task_hostname=awx
 awx_web_hostname=awxweb
 # Local directory that is mounted in the awx_postgres docker container to place the db in
 postgres_data_dir="~/.awx/pgdocker"
-host_port=5090
+host_port=8090
 host_port_ssl=443
 #ssl_certificate=
 # Optional key file
